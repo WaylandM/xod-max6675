@@ -1,0 +1,100 @@
+{
+  "description": "MAX6675 thermocouple amplifier",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "D5"
+      },
+      "description": "The Arduino pin connected to Chip Select.",
+      "id": "B19yD5d_P",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D6"
+      },
+      "description": "The Arduino pin connected to Clock.",
+      "id": "B1CCIc_uP",
+      "label": "SCLK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "Pulse on read of temperature.",
+      "id": "B1L7t9u_D",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Hk5ZP5OuP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D4"
+      },
+      "description": "The Arduino pin connected to Data Out.",
+      "id": "Hkkxv5ddw",
+      "label": "MISO",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "Temperature in degrees Fahrenheit.",
+      "id": "S1VfKc_uv",
+      "label": "TempF",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Update",
+      "id": "SJuxD9_uD",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Temperature in degrees Celsius.",
+      "id": "r1zZY5_OP",
+      "label": "TempC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

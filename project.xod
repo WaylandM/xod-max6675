@@ -1,0 +1,6 @@
+{
+  "description": "MAX6675 thermocouple amplifier. Wraps https://github.com/adafruit/MAX6675-library. ",
+  "license": "BSD 3-Clause License",
+  "name": "max6675-thermocouple-amplifier",
+  "version": "0.0.1"
+}

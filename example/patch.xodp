@@ -1,0 +1,116 @@
+{
+  "description": "Example patch to test max6675-thermo-amp. Run in debugger.",
+  "links": [
+    {
+      "id": "H12h3qudD",
+      "input": {
+        "nodeId": "BJd3h5ddD",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkxn2qd_v",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "Hymi39duD",
+      "input": {
+        "nodeId": "S1RFnquOP",
+        "pinKey": "SJuxD9_uD"
+      },
+      "output": {
+        "nodeId": "ByC9nqdOw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "Hyr2h9OOD",
+      "input": {
+        "nodeId": "Bkxn2qd_v",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "S1RFnquOP",
+        "pinKey": "B1L7t9u_D"
+      }
+    },
+    {
+      "id": "rJT2nqOuD",
+      "input": {
+        "nodeId": "BJjih5_dP",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1RFnquOP",
+        "pinKey": "S1VfKc_uv"
+      }
+    },
+    {
+      "id": "rk1pncuuP",
+      "input": {
+        "nodeId": "H1UohcdOw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1RFnquOP",
+        "pinKey": "r1zZY5_OP"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJd3h5ddD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJjih5_dP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Bkxn2qd_v",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "ByC9nqdOw",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "H1UohcdOw",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1RFnquOP",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 1
+      },
+      "type": "@/max6675-thermo-amp"
+    }
+  ]
+}
